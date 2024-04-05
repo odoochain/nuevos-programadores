@@ -18,6 +18,11 @@
                         </div>
                   <group>
                       <group>
+                          <field name="partner_id"
+                                    domain="[('vat','!=', False)]"/>
+
+
+                          <!--
                           <field name="user_use_id"/>
 
                           <field name="id_database"/>
@@ -28,13 +33,17 @@
                           <field name="product_id"/>
 
                           <field name="expiration_date"/>
+                          -->
 
                        </group>
                       <group>
+                          <field name="last_update" readonly="1"/>
+                          <!--
                           <field name="number_of_uses" readonly="1"/>
                           <field name="number_of_uses_original"/>
                           <field name="create_date" readonly="1"/>
                           <field name="user_id" readonly="1"/>
+                          -->
                        </group>
                   </group>
                </sheet>
@@ -52,9 +61,11 @@
          <field name="arch" type="xml">
             <tree>
                 <field name="name"/>
-                <field name="user_use_id"/>
+                <field name="partner_id"/>
+                <!--
                 <field name="product_id"/>
                 <field name="create_date" optional="show"/>
+                -->
             </tree>
         </field>
     </record>

@@ -9,10 +9,15 @@
               web_icon="38_user_licenses,static/description/icon.png">
             <menuitem id="menu_licenses_2" name="Licenses" sequence="10">
 
-                 <menuitem id="menu_licenses_3"
-                          name="Licenses"
-                          sequence="30"
+                 <menuitem id="menu_licenses_33"
+                          name="Load Licenses"
+                          sequence="10"
                           action="action_system_license"/>
+
+                 <menuitem id="menu_licenses_34"
+                          name="Load Data"
+                          sequence="34"
+                          action="action_unitary_license"/>
 
             </menuitem>
     </menuitem>

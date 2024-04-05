@@ -35,6 +35,7 @@
               'security/ir.model.access.csv',
               'security/security_groups.xml',
               'views/system_license_views.xml',
+              'views/unitary_license_views.xml',
               'views/menu_views.xml',
 
             ],
