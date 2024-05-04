@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_system_license,access.system.license,api_user_licenses.model_system_license,,1,1,1,1
+access_system_license_line,access.system.license.line,api_user_licenses.model_system_license_line,,1,1,1,1
+access_license_consumption,access.license.consumption,api_user_licenses.model_license_consumption,,1,1,1,1
+access_license_consumption_line,access.license.consumption.line,api_user_licenses.model_license_consumption_line,,1,1,1,1

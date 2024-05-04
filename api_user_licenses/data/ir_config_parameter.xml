@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <record id="licence_password" model="ir.config_parameter">
+        <field name="key">licence_password</field>
+        <field name="value">pQCVuu5WU52mpX24TXiKATkNg37YNgrg</field>
+    </record>
+</odoo>

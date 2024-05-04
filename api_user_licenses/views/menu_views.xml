@@ -4,17 +4,17 @@
 
 
     <menuitem id="licenses_menu_main" name="License" sequence="100"
+              web_icon="api_user_licenses,static/description/icon.png">
+            <menuitem id="menu_licenses_2"
+                      groups="api_user_licenses.group_user_license,api_user_licenses.group_user_license_all"
+                      name="Licenses" sequence="10">
 
-              groups="38_user_licenses.group_user_license,38_user_licenses.group_user_license_all"
-              web_icon="38_user_licenses,static/description/icon.png">
-            <menuitem id="menu_licenses_2" name="Licenses" sequence="10">
-
-                 <menuitem id="menu_licenses_33"
+                <menuitem id="menu_licenses_33"
                           name="Load Licenses"
                           sequence="10"
                           action="action_system_license"/>
 
-                
+
 
             </menuitem>
     </menuitem>
